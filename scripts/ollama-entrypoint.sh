@@ -6,7 +6,8 @@ apt-get -y update; apt-get -y install curl
 echo "Starting Ollama container setup..."
 
 # Define model to pull (change this to your preferred model)
-MODEL="smollm"
+# MODEL="smollm"
+MODEL="qwen3:4b"
 PORT=11434
 
 # Start the Ollama service in the background
